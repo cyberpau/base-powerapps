@@ -1,0 +1,24 @@
+Blank As screen:
+
+    Header_1 As Header:
+        Width: =1024.00
+        X: =0.00
+
+    NavigationMenu_1 As NavigationMenu:
+        Width: =112.45
+        Y: =48
+        ZIndex: =2
+
+    LblBlank As label:
+        Color: =Theme.FontColor.H2
+        FontWeight: =FontWeight.Semibold
+        Height: =61
+        PaddingLeft: =20
+        PaddingRight: =20
+        Size: =Theme.FontSize.ExtraLarge
+        Text: ='Blank'.Name
+        Width: =912
+        X: =112
+        Y: =50
+        ZIndex: =3
+

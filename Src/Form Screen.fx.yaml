@@ -1,0 +1,81 @@
+"'Form Screen' As screen":
+
+    Header_2 As Header:
+        Width: =1024.00
+        X: =0.00
+
+    NavigationMenu_2 As NavigationMenu:
+        Width: =112.45
+        Y: =48
+        ZIndex: =2
+
+    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =568
+        Width: =911
+        X: =112
+        Y: =200
+        ZIndex: =3
+
+        DataCard1 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =912
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Form1 As form:
+                X: =40
+                Y: =40
+                ZIndex: =1
+
+    LblFormScreen As label:
+        Color: =Theme.FontColor.H2
+        FontWeight: =FontWeight.Semibold
+        Height: =61
+        PaddingLeft: =20
+        PaddingRight: =20
+        Size: =Theme.FontSize.ExtraLarge
+        Text: ='Form Screen'.Name
+        Width: =912
+        X: =112
+        Y: =50
+        ZIndex: =6
+
+    Group3 As group:
+        Height: =5
+        Width: =5
+        X: =-174
+        Y: =-128
+        ZIndex: =6
+
+        Icon4 As icon.BackArrow:
+            Height: =30
+            Icon: =Icon.BackArrow
+            OnSelect: =Back();
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            Width: =30
+            X: =131
+            Y: =169
+            ZIndex: =4
+
+        Label10 As label:
+            Color: =RGBA(0, 18, 107, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =30
+            OnSelect: =Back();
+            PaddingRight: =3.75
+            PaddingTop: =3.75
+            Size: =Theme.FontSize.Normal
+            Text: ="Back"
+            Width: =80
+            X: =165
+            Y: =169
+            ZIndex: =5
+

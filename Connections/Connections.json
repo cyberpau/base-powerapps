@@ -1,0 +1,44 @@
+{
+  "d4edc304-d7b9-4d8d-b718-80484708a3a4": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/dc98ac4c93f642a6bab6fa0f2b7da7ee",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1542/1.0.1542.2635/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "d4edc304-d7b9-4d8d-b718-80484708a3a4"
+  },
+  "d5884080-919c-4975-9327-7c37d0bea208": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365/connections/84d8e70d3c884b3b8134455b0bf57401",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1538/1.0.1538.2621/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "d5884080-919c-4975-9327-7c37d0bea208"
+  }
+}

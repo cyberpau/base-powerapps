@@ -1,0 +1,49 @@
+NavigationMenu As CanvasComponent:
+    AppVersion: =AppVersion
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =720
+    NavigationFontSize: =Theme.FontSize.Small
+    NavigationMenus: =_navigationMenus
+    Width: =111
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    NavigationPane As gallery.galleryVertical:
+        BorderThickness: =1
+        Height: =720
+        Items: =NavigationMenu.NavigationMenus
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =40
+        Width: =111
+        ZIndex: =1
+
+        Button2 As button:
+            BorderColor: =Black
+            BorderThickness: =1
+            Color: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            OnSelect: =Navigate(ThisItem.Page)
+            PaddingRight: =2.81
+            PaddingTop: =2.81
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =NavigationMenu.NavigationFontSize
+            Text: =ThisItem.Title
+            Visible: =ThisItem.isVisible
+            Width: =112.45
+            X: =0.00
+            ZIndex: =1
+
+    Label2 As label:
+        Align: =Align.Center
+        Italic: =true
+        Size: =10
+        Text: ="v" & NavigationMenu.AppVersion
+        Width: =111
+        Y: =680
+        ZIndex: =2
+

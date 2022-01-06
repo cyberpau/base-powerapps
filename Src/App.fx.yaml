@@ -1,0 +1,45 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |-
+        =Concurrent(
+            Set(AppTitle, "Ideation Base"),
+            Set(AppVersion, "1.0.0.0"),
+            Set(AppID, "7f928efd-446d-46d4-9c8f-e37bcb7ffddb"),
+            Set(Environment, "DEV"), /** 'DEV' for Development, 'PROD' for Production **/
+            Set(CurrentUser, Office365Users.MyProfile()),
+            Set(Role, "Admin"),
+            
+            Set(Theme, {
+                Header: {
+                    BackgroundColor: ColorValue("#002060")
+                },
+                FontSize: {
+                    ExtraLarge: 24,
+                    Large: 16,
+                    Normal: 12,
+                    Small: 10
+                },
+                FontColor: {
+                    H1: ColorValue("#002060"),
+                    H2: ColorValue("#002060"),
+                    H3: Black
+                    
+                }
+            })
+        );
+        
+        // Navigation Menus
+        ClearCollect(_navigationMenus,
+            Switch(Role, 
+                "User", Table(
+                    {Title: "Landing Page", Page: 'Landing Page', isVisible: true},
+                    {Title: "Form Screen", Page: 'Form Screen', isVisible: true}),
+                "Manager", Table(
+                    {Title: "Landing Page", Page: 'Landing Page', isVisible: true},
+                    {Title: "Form Screen", Page: 'Form Screen', isVisible: true}),
+                "Admin", Table(
+                    {Title: "Landing Page", Page: 'Landing Page', isVisible: true},
+                    {Title: "Form Screen", Page: 'Form Screen', isVisible: true})
+        ));
+    StartScreen: =
+

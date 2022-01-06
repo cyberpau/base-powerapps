@@ -1,0 +1,153 @@
+{
+  "ComponentIndexes": {
+    "Component1": 5,
+    "Header": 3,
+    "Header_1": 1,
+    "Header_2": 1,
+    "Header_3": 1,
+    "NavigationMenu": 4,
+    "NavigationMenu_1": 2,
+    "NavigationMenu_2": 2,
+    "NavigationMenu_3": 2
+  },
+  "ControlUniqueIds": {
+    "App": 1,
+    "Blank": 11,
+    "Button2": 9,
+    "Canvas1": 41,
+    "Canvas1_2": 60,
+    "Component1": 10,
+    "DataCard1": 42,
+    "DataCard1_2": 61,
+    "Form Screen": 17,
+    "Form1": 50,
+    "galleryTemplate3": 8,
+    "Group3": 45,
+    "Header": 3,
+    "Header_1": 12,
+    "Header_2": 18,
+    "Header_3": 57,
+    "Icon4": 44,
+    "Label1": 5,
+    "Label10": 43,
+    "Label2": 63,
+    "Landing Page": 56,
+    "LblBlank": 47,
+    "LblBlank_1": 59,
+    "LblFormScreen": 46,
+    "NavigationMenu": 6,
+    "NavigationMenu_1": 14,
+    "NavigationMenu_2": 19,
+    "NavigationMenu_3": 58,
+    "NavigationPane": 7,
+    "Rectangle2": 4,
+    "Video3_1": 62
+  },
+  "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/06/2022 08:59:37",
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "1024px-Yes_Check_Circle.svg": "e42a265b-784b-43f8-a515-3157997f032e.png",
+    "loading": "a8bb366f-7e3c-4c34-9ed8-cd397edf1b89.gif"
+  },
+  "LocalResourceRootPaths": {
+    "1024px-Yes_Check_Circle.svg": "https://docserverpwaprodseas.blob.core.windows.net/39573e7c-1511-4da0-8962-ce345b25e1d1-1/resource/Assets0Images0e42a265b-784b-43f8-a515-3157997f032e.png?sv=2017-04-17&sr=b&sig=WHsI%2BALnCG0bCHuRczFbycRE0reVr6yK0kx2oPAYKb8%3D&spr=https&se=2022-01-07T07%3A13%3A27Z&sp=r",
+    "loading": "https://docserverpwaprodseas.blob.core.windows.net/39573e7c-1511-4da0-8962-ce345b25e1d1-1/resource/Assets0Images0a8bb366f-7e3c-4c34-9ed8-cd397edf1b89.gif?sv=2017-04-17&sr=b&sig=VCjs3i13MTHVkohnvhtrofVoxl8DiTP3ZmfqUB7BW6Y%3D&spr=https&se=2022-01-07T07%3A13%3A27Z&sp=r"
+  },
+  "OrderComponentMetadata": {
+    "54e850acbe7b4d87b81b9d1683909167": 0,
+    "671156b5993e486a981334bbbdb9aaad": 1,
+    "c510267b7b4d4ab7a6663a1d2027c5c4": 2
+  },
+  "OrderComponentTemplate": {
+    "54e850acbe7b4d87b81b9d1683909167": 0,
+    "671156b5993e486a981334bbbdb9aaad": 1,
+    "c510267b7b4d4ab7a6663a1d2027c5c4": 2
+  },
+  "OrderDataSource": {
+    "_navigationMenus": 3,
+    "CustomGallerySample": 2,
+    "Office365Outlook": 1,
+    "Office365Users": 0
+  },
+  "OrderGroupControls": {
+    "Group3": {
+      "Icon4": 1,
+      "Label10": 0
+    }
+  },
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 3,
+    "fluidGrid": 5,
+    "form": 6,
+    "gallery": 2,
+    "icon": 4,
+    "label": 1,
+    "rectangle": 0,
+    "videoPlayback": 7
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Blank": 0,
+    "Button2": 22,
+    "Canvas1": 15,
+    "Canvas1_2": 3,
+    "Component1": 0,
+    "DataCard1": 16,
+    "DataCard1_2": 4,
+    "Form Screen": 0,
+    "Form1": 17,
+    "galleryTemplate3": 21,
+    "Group3": 13,
+    "Header": 0,
+    "Header_1": 6,
+    "Header_2": 9,
+    "Header_3": 0,
+    "Icon4": 12,
+    "Label1": 19,
+    "Label10": 14,
+    "Label2": 23,
+    "Landing Page": 0,
+    "LblBlank": 8,
+    "LblBlank_1": 2,
+    "LblFormScreen": 11,
+    "NavigationMenu": 0,
+    "NavigationMenu_1": 7,
+    "NavigationMenu_2": 10,
+    "NavigationMenu_3": 1,
+    "NavigationPane": 20,
+    "Rectangle2": 18,
+    "Video3_1": 5
+  },
+  "ResourcesJsonIndices": {
+    "Image-1024px-Yes_Check_Circle.svg": 0,
+    "Image-loading": 1,
+    "Video-SampleVideo": 2
+  },
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.1209229,
+    "ControlCount": {
+      "54e850acbe7b4d87b81b9d1683909167": 4,
+      "671156b5993e486a981334bbbdb9aaad": 4,
+      "barcodeScanner": 1,
+      "button": 1,
+      "c510267b7b4d4ab7a6663a1d2027c5c4": 1,
+      "dataCard": 3,
+      "fluidGrid": 3,
+      "form": 3,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "group": 1,
+      "groupContainer": 5,
+      "icon": 1,
+      "label": 5,
+      "rectangle": 1,
+      "screen": 3,
+      "videoPlayback": 1
+    },
+    "DeserializationLoadTime": 1.478028,
+    "ErrorCount": 0
+  }
+}
